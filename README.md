@@ -27,12 +27,10 @@ pip install -r requirements.txt
 以下是使用 `client.py` 的基本命令：
 
 ```shell
-python client.py "microphone" --host <YOUR_HOST> --port <YOUR_PORT>
+python client.py microphone --host <YOUR_HOST> --port <YOUR_PORT>
 ```
 
 其中，`<YOUR_HOST>` 與 `<YOUR_PORT>` 為你的伺服器主機與端口。此指令會從麥克風讀取音訊，並將其傳送到指定的 WebSocket 伺服器。
-
-若想從音訊檔案讀取音訊，可以將 `"microphone"` 更換為音訊檔案的路徑。
 
 若想更換音訊串流的參數，可以加入以下參數：
 
@@ -43,7 +41,7 @@ python client.py "microphone" --host <YOUR_HOST> --port <YOUR_PORT>
 範例：
 
 ```shell
-python client.py "microphone" --host <YOUR_HOST> --port <YOUR_PORT> --step 1 --sample-rate 32000 --output-file output.txt
+python client.py microphone --host <YOUR_HOST> --port <YOUR_PORT> --step 1 --sample-rate 32000 --output-file output.txt
 ```
 
 
