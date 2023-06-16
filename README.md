@@ -46,6 +46,4 @@ python client.py "microphone" --host <YOUR_HOST> --port <YOUR_PORT>
 python client.py "microphone" --host <YOUR_HOST> --port <YOUR_PORT> --step 1 --sample-rate 32000 --output-file output.txt
 ```
 
-## 注意事項
 
-本專案為基本的音訊串流工具，並未考慮所有可能的錯誤處理。在實際應用前，可能需要加入更多的錯誤處理與驗證機制。
