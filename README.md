@@ -36,12 +36,11 @@ python client.py microphone --host <YOUR_HOST> --port <YOUR_PORT>
 
 - `--step`: 滑動窗口步長（以秒為單位）。默認為0.5。
 - `--sample-rate`: 音訊流的採樣率。默認為16000。
-- `--output-file`: 輸出的RTTM文件。默認不寫入文件。
 
 範例：
 
 ```shell
-python client.py microphone --host <YOUR_HOST> --port <YOUR_PORT> --step 1 --sample-rate 32000 --output-file output.txt
+python client.py microphone --host <YOUR_HOST> --port <YOUR_PORT> --step 1 --sample-rate 32000
 ```
 
 
