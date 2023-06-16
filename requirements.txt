@@ -1,0 +1,4 @@
+numpy
+rx
+sounddevice
+websocket-client
